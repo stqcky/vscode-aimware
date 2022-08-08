@@ -2,6 +2,11 @@
   "name": "aimware-language-server",
   "displayName": "AIMWARE Language Server",
   "description": "Lua language server that supports the AIMWARE API",
+  "publisher": "stacky",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/stqcky/aimware-language-server"
+  },
   "version": "1.0.0",
   "license" : "MIT",
   "engines": {
@@ -2878,8 +2883,8 @@
 	},
   "scripts": {
     "vscode:prepublish": "yarn run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
+    "compile": "tsc -b",
+    "watch": "tsc -b -w",
     "pretest": "yarn run compile && yarn run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
