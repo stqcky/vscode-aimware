@@ -1,3 +1,11 @@
-# vscode-aimware
+# Aimware Language Server
 
-VSCode extension for [aimware-language-server](https://github.com/stqcky/aimware-language-server)
+A Lua language server that supports the AIMWARE API, based on [lua-language-server](https://github.com/sumneko/lua-language-server).
+
+## Showcase
+
+![file.Enumerate showcase](assets/fileEnumerate.gif)
+![callbacks.Register showcase](assets/callbacks.gif)
+
+## Issues
+If you encounter any issues contact me on Discord: stacky#6580
